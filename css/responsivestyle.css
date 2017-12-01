@@ -1,38 +1,9 @@
-@media only screen and (min-width: 1800px) {
-  .bkh-nav-wrapper {
-    width: 35%;
-    margin: auto;
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    position: absolute;
   }
-  .bkh-nav-wrapper .right.hide-on-med-and-down {
-    margin-right: -50px;
-  }
-}
-
-@media only screen and (min-width: 1600px) and (max-width: 1799px) {
-  .bkh-nav-wrapper {
-    width: 45%;
-    margin: auto;
-  }
-  .bkh-nav-wrapper .right.hide-on-med-and-down {
-    margin-right: -50px;
-  }
-}
-
-@media only screen and (min-width: 1280px) and (max-width: 1599px) {
-  .bkh-nav-wrapper {
-    width: 55%;
-    margin: auto;
-  }
-  .bkh-nav-wrapper .right.hide-on-med-and-down {
-    margin-right: -50px;
-  }
-}
-
-@media only screen and (max-width: 1279px) and (min-width: 993px) {
-  .bkh-nav-wrapper {
-    width: 70%;
-    margin: auto;
-    max-width: 700px;
+  nav .button-collapse {
+    margin-left: 15px;
   }
 }
 

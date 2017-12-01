@@ -107,6 +107,17 @@ main {
   font-family: 'Raleway Bold';
 }
 
+.bkh-nav-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+nav .brand-logo {
+  position: static;
+}
+
 #bkh-header-cart,
 #bkh-header-cart-mobile {
   color: #231f20;
