@@ -1,0 +1,135 @@
+@media only screen and (min-width: 1800px) {
+  .bkh-nav-wrapper {
+    width: 35%;
+    margin: auto;
+  }
+  .bkh-nav-wrapper .right.hide-on-med-and-down {
+    margin-right: -50px;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1799px) {
+  .bkh-nav-wrapper {
+    width: 45%;
+    margin: auto;
+  }
+  .bkh-nav-wrapper .right.hide-on-med-and-down {
+    margin-right: -50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1599px) {
+  .bkh-nav-wrapper {
+    width: 55%;
+    margin: auto;
+  }
+  .bkh-nav-wrapper .right.hide-on-med-and-down {
+    margin-right: -50px;
+  }
+}
+
+@media only screen and (max-width: 1279px) and (min-width: 993px) {
+  .bkh-nav-wrapper {
+    width: 70%;
+    margin: auto;
+    max-width: 700px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bkh-cart-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .bkh-cart-text {
+    display: none;
+  }
+  .bkh-cart-mobile {
+    display: inline-block;
+    padding-top: 5px;
+  }
+  .bkh-checkout-order-summary-table-wrapper {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bkh-footer-wrapper {
+    flex-flow: row wrap;
+  }
+  .bkh-footer-social-navbar {
+    margin: auto 0 auto auto;
+  }
+  .bkh-footer-navbar {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .bkh-cnew-app-sublabel-last {
+    margin-bottom: 25px;
+  }
+  .bkh-cnew-openpos-wrapper {
+    width: 100%;
+  }
+  .bkh-cnew-viewjob-wrapper {
+    width: 100%;
+  }
+  .bkh-cnew-apply-btn span {
+    display: none;
+  }
+  .bkh-cnew-apply-btn i.material-icons {
+    display: initial;
+  }
+  .bkh-about-img-wrap + .bkh-about-img-wrap {
+    margin-top: 15px;
+  }
+  .bkh-about-team-img-wrap + .bkh-about-team-img-wrap {
+    margin-top: 35px;
+  }
+  .bkh-contact-body {
+    padding: 25px 15px;
+  }
+  .bkh-contact-map-wrap {
+    text-align: center;
+    margin-right: 0;
+  }
+  .bkh-contact-form-wrap {
+    margin-top: 20px;
+  }
+  .bkh-contact-title-wrap {
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+  .bkh-contact-social-navs {
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .bkh-caption {
+    font-size: 2rem;
+  }
+  .bkh-home-subcaption {
+    font-size: 1rem;
+  }
+  #bkh-home-slider ul.indicators {
+    bottom: 24%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .bkh-cnew-job-description-header {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .bkh-cnew-apply-btn {
+    margin-top: 10px;
+  }
+  .mg-sm {
+    margin-bottom: 30px;
+  }
+}
